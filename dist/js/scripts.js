@@ -1,7 +1,7 @@
 /*!
-    * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
+    * Start Bootstrap - Derigo tech - www site v6.0.3 (https://derigotech.com/)
     * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+    * Licensed under MIT (https://github.com/StartBootstrap/derigotech-creative/blob/master/LICENSE)
     */
     (function($) {
   "use strict"; // Start of use strict
