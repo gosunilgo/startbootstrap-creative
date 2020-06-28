@@ -1,6 +1,6 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
+    "title": "Derigo tech - www site",
+    "name": "derigotech-creative",
     "version": "6.0.3",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -23,14 +23,14 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/themes/creative",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://derigotech.com/",
+
+    "original_homepage": "https://startbootstrap.com/themes/creative",
+
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
+        "Sunil Soprey (https://twitter.com/gosunilgo)",
         "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
