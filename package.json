@@ -36,7 +36,9 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.0"
+        "bootstrap": "4.5.0",
+        "jstransformer-markdown-it": "^2.1.0",
+        "jstransformer-uglify-js": "^1.2.0"
     },
     "devDependencies": {
         "autoprefixer": "9.8.0",
