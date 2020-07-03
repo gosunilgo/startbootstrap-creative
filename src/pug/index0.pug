@@ -16,10 +16,6 @@ html(lang='en')
         // Font Awesome icons (free version)
         script(src='https://use.fontawesome.com/releases/v5.13.0/js/all.js', crossorigin='anonymous')
 
-        // UA
-        script(src='https://www.googletagmanager.com/gtag/js?id=UA-121784526-1')
-
-
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic', rel='stylesheet', type='text/css')
@@ -35,7 +31,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
             .container
-                a.navbar-brand.js-scroll-trigger(href='#page-top') Derigo Technology
+                a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
@@ -66,23 +62,82 @@ html(lang='en')
                     .col-lg-3.col-md-6.text-center
                         .mt-5
                             i.fas.fa-4x.fa-gem.text-primary.mb-4
-                            h3.h4.mb-2 Devops/DevSecOps
+                            h3.h4.mb-2 Sturdy Themes
+                            p.text-muted.mb-0 Our themes are updated regularly to keep them bug free!
                     .col-lg-3.col-md-6.text-center
                         .mt-5
                             i.fas.fa-4x.fa-laptop-code.text-primary.mb-4
-                            h3.h4.mb-2 API Management
+                            h3.h4.mb-2 Up to Date
+                            p.text-muted.mb-0 All dependencies are kept current to keep things fresh.
                     .col-lg-3.col-md-6.text-center
                         .mt-5
                             i.fas.fa-4x.fa-globe.text-primary.mb-4
-                            h3.h4.mb-2 Mission Assurance
+                            h3.h4.mb-2 Ready to Publish
+                            p.text-muted.mb-0 You can use this design as is, or you can make changes!
                     .col-lg-3.col-md-6.text-center
                         .mt-5
                             i.fas.fa-4x.fa-heart.text-primary.mb-4
-                            h3.h4.mb-2 Data Analytics
+                            h3.h4.mb-2 Made with Love
+                            p.text-muted.mb-0 Is it really open source if it's not made with love?
 
+        // Portfolio
+        div#portfolio
+            .container-fluid.p-0
+                .row.no-gutters
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/1.jpg')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/1.jpg', alt='')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                    | Category
+                                .project-name
+                                    | Project Name
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/2.jpg')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/2.jpg', alt='')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                    | Category
+                                .project-name
+                                    | Project Name
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/3.jpg')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/3.jpg', alt='')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                    | Category
+                                .project-name
+                                    | Project Name
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/4.jpg')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/4.jpg', alt='')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                    | Category
+                                .project-name
+                                    | Project Name
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/5.jpg')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/5.jpg', alt='')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                    | Category
+                                .project-name
+                                    | Project Name
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/fullsize/6.jpg')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/6.jpg', alt='')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                    | Category
+                                .project-name
+                                    | Project Name
 
-
-
+        // Call to action
+        section.page-section.bg-dark.text-white
+            .container.text-center
+                h2.mb-4 Free Download at Start Bootstrap!
+                a.btn.btn-light.btn-xl(href='https://startbootstrap.com/themes/creative/') Download Now!
 
         // Contact
         section#contact.page-section
@@ -96,17 +151,17 @@ html(lang='en')
                 .row
                     .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
                         i.fas.fa-phone.fa-3x.mb-3.text-muted
-                        div +1 (443) 620-8254
+                        div +1 (555) 123-4567
                     .col-lg-4.mr-auto.text-center
                         i.fas.fa-envelope.fa-3x.mb-3.text-muted
 
                         // Make sure to change the email address in BOTH the anchor text and the link target below!
-                        a.d-block(href='mailto:info@derigotech.com') info@derigotech.com
+                        a.d-block(href='mailto:contact@yourwebsite.com') contact@yourwebsite.com
 
         // Footer
         footer.bg-light.py-5
             .container
-                .small.text-center.text-muted Copyright © 2020 - Derigo Technology
+                .small.text-center.text-muted Copyright © 2020 - Start Bootstrap
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
@@ -118,6 +173,3 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
-
-        // Google UA invoke
-        script(src='js/google-ua.js')
